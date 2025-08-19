@@ -7,8 +7,8 @@
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
-  --strock-color: rgba(255, 225, 255, 0.5);
-  --surface-color: rgba(255, 225, 255, 0.05);
+  --strock-color: rgba(100, 100, 100, 0.5);
+  --surface-color: rgba(131, 131, 131, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.02);
   --highlight-color: rgba(255, 225, 255, 0.2);
   --switch-bg-rl: url(./assets/moon-stars.svg);
@@ -17,7 +17,7 @@
 .light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
-  --strock-color: rgba(0, 0, 0, 0.5);
+  --strock-color: rgba(180, 180, 180, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
