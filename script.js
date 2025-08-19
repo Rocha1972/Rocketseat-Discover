@@ -11,14 +11,14 @@ function toggleMode() {
     img.setAttribute("src", "./assets/rocker-light.png")
     img.setAttribute(
       "alt",
-      "Foto de Renato Rocha, com camiseta preta em claro desfocado"
+      "Foto de Renato Rocha, usando camiseta preta em fundo claro desfocado"
     )
   } else {
     //set sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/rocker.png")
     img.setAttribute(
       "alt",
-      "Foto de Renato Rocha usando camiseta branca e moleton preto em fundo escuro"
+      "Foto de Renato Rocha, usando camiseta branca e moleton preto em fundo escuro"
     )
   }
 }
