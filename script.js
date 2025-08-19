@@ -11,14 +11,14 @@ function toggleMode() {
     img.setAttribute("src", "./assets/rocker-light.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brit usando óculos escuro, sorrindo, com jaqueta preta em fundo degrade, roxo e azul"
+      "Foto de Renato Rocha, com camiseta preta em claro desfocado"
     )
   } else {
     //set sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/rocker.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito usando óculos, sorrindo, com camisa preta em fundo amarelo"
+      "Foto de Renato Rocha usando camiseta branca e moleton preto em fundo escuro"
     )
   }
 }
