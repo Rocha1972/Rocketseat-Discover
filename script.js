@@ -8,17 +8,17 @@ function toggleMode() {
   //substituir a imagem
   if (html.classList.contains("light")) {
     //se tiver light mode, adicione a imagem light
-    img.setAttribute("src", "./assets/rocker-light.png")
+    img.setAttribute("src", "./assets/rocker-claro.png")
     img.setAttribute(
       "alt",
-      "Foto de Renato Rocha, usando camiseta preta em fundo claro desfocado"
+      "Foto de Renato Rocha, usando camiseta preta em fundo claro desfocado",
     )
   } else {
     //set sem light mode, manter a imagem normal
-    img.setAttribute("src", "./assets/rocker.png")
+    img.setAttribute("src", "./assets/rocker-escuro.png")
     img.setAttribute(
       "alt",
-      "Foto de Renato Rocha, usando camiseta branca e moleton preto em fundo escuro"
+      "Foto de Renato Rocha, usando camiseta branca e moleton preto em fundo escuro",
     )
   }
 }
