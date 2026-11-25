@@ -9,16 +9,10 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     //se tiver light mode, adicione a imagem light
     img.setAttribute("src", "./assets/rocker-claro.png")
-    img.setAttribute(
-      "alt",
-      "Foto de Renato Rocha, usando camiseta preta em fundo claro desfocado",
-    )
+    img.setAttribute("alt", "Foto de Renato Rocha, em fundo claro")
   } else {
     //set sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/rocker-escuro.png")
-    img.setAttribute(
-      "alt",
-      "Foto de Renato Rocha, usando camiseta branca e moleton preto em fundo escuro",
-    )
+    img.setAttribute("alt", "Foto de Renato Rocha, em fundo escuro")
   }
 }
